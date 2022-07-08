@@ -1,0 +1,90 @@
+body{
+    background: #0093E9;
+    font: normal 1.2rem arial;
+    padding: 0;
+    margin: 0
+    
+}
+
+header {
+    /* Gradiente */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0094e900 0%, #80a5d0 100%);
+    /* torna o elemento flex - coloca lado a lado */
+    display: flex; 
+    /* elementos em cada ponta */
+    justify-content: space-between; 
+    /* Centraliza elementos */
+    align-items: center; 
+    /* Centraliza elementos */
+    flex-wrap: wrap;
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#logo {
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+    font: bold 1.8rem arial;
+}
+
+.menu {
+    /* Coloca lista lado a lado */
+    display: flex;
+    padding: 10px;
+    /* tira estilo de lista*/
+    list-style: none;
+    
+}
+
+.menu li {
+    margin-left: 10px;
+    
+}
+
+.menu a {
+    padding: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+section {
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    height: 450px;
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0094e900 0%, #80a5d0 100%);
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+    position: absolute;
+    line-height: 100px;   
+}
+
+div {
+    text-align: center;
+}
+
+
+

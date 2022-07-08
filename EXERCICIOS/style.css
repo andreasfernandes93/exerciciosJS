@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: limegreen;
+}
+
+.container {
+    background-color: rgb(49, 44, 44);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;   
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+/* DIV DA ATIVIDADE AULA 10 */
+
+#area{
+    background:limegreen;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    text-transform: uppercase;
+    margin: auto; /* centraliza objeto na tela */
+    line-height: 200px; /*centraliza texto na div - usar tamanho da div */
+    text-align: center; /*centraliza texto na linha */
+    top: 50%;
+    cursor: pointer;
+    
+}
+
+/* DIV DA ATIVIDADE AULA 11 */
+
+#calc {
+    background: green;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#result {
+    color: black;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#txtn1 {
+    width: 60px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 31px;
+    text-align: center;
+}
+
+#txtn2 {
+    width: 60px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 31px;
+    text-align: center;
+}
+
+#somarbtn {
+    width: 100px;
+    height: 50px;
+    line-height: 20px;
+    font-size: 31px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+#apagar {
+    width: 100px;
+    height: 50px;
+    line-height: 20px;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Exercicio condições velocidade */
+
+.multa {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#MSG {
+    color: red;
+}
